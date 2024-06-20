@@ -30,3 +30,19 @@
     opacity: 0;
 }
 
+.ex-5-square {
+    transition: 1s ease;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-3-square {
+    transition: 1s;
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+

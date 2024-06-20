@@ -59,3 +59,13 @@
     border-radius: 5%;
 }
 
+.ex-8-img {
+    transition: 1s ease;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(180deg);
+    border-radius: 10%;
+    filter: blur(2px);
+}
+

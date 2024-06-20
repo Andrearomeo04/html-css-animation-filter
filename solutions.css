@@ -89,5 +89,19 @@
     }
 }
 
+/* .ex-11-icon {
+    transform: 5s;
+} */
 
+.ex-11-icon:hover {
+    animation: spinner-3 2s ease-in infinite;
+}
 
+@keyframes spinner-3 {
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

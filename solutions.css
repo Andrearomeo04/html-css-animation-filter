@@ -64,8 +64,19 @@
 }
 
 .ex-8-img:hover {
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg) blur(2px);
     border-radius: 10%;
-    filter: blur(2px);
 }
+
+.ex-9-img {
+    transition: 1s ease;
+}
+
+.ex-9-img:hover {
+    border-radius: 10%;
+    filter: sepia(80%) drop-shadow(8px 8px 10px black);
+    transform: scale(1.3);
+}
+
+
 
